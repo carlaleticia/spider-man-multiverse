@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+i {
+    position: absolute;
+    width: 19.8px;
+    height: 19.8px;
+    left: 32.1px;
+    top: 12.29px;
+    color: var(--primary-color);
+}
