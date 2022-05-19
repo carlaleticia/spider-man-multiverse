@@ -49,24 +49,28 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    position: absolute;
+    margin-top: 20px;
+    padding-top: 20px;
 }
+
 
 .s-wrapper .s-main-content .s-logo img{
     margin-top: 50px;
     margin-left: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .s-wrapper .s-main-content__top .s-description{
     background-color: rgba(0,0,0,.8);
-    max-width: 50%;
-    padding: 20px;
+    max-width: 55%;
+    padding: 5px;
     border-radius: 10px;
 }
 
 .s-wrapper .s-main-content__top .s-description .s-description__text p{
     color: white;
-    line-height: 170%;
+    line-height: 160%;
 
 }
 
@@ -75,10 +79,14 @@
 }
 
 .s-wrapper .s-main-content .s-links {
-    padding: 20px;
+    padding: 5px;
     padding-left: 0;
-    margin-left: 10px;
-    
+    margin-left: 0px;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: bolder;
+
 }
 .s-wrapper .s-main-content .s-links ul li a span{
     display: inline-block;
@@ -97,5 +105,26 @@
 }
 .s-spiderman-01-03 {
     background-image: url('/assets/images/spiderman-tobey/movie-03/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-02-01 {
+    background-image: url('/assets/images/spiderman-andrew/movie-01/background.png');
+    background-size: cover;
+}
+.s-spiderman-02-02 {
+    background-image: url('/assets/images/spiderman-andrew/movie-02/background.png');
+    background-size: cover;
+}
+.s-spiderman-03-01 {
+    background-image: url('/assets/images/spiderman-tom/movie-01/background.png');
+    background-size: cover;
+}
+.s-spiderman-03-02 {
+    background-image: url('/assets/images/spiderman-tom/movie-02/background.png');
+    background-size: cover;
+}
+.s-spiderman-03-03 {
+    background-image: url('/assets/images/spiderman-tom/movie-03/background.png');
     background-size: cover;
 }
