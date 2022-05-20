@@ -49,13 +49,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-top: 25px;
 }
 
 
 .s-wrapper .s-main-content .s-logo img{
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin-top: 50px;
 }
 
 .s-wrapper .s-main-content__top .s-description{
@@ -87,7 +86,7 @@
     padding-left: 0;
     margin-left: 0px;
     position: relative;
-    z-index: 1;
+    bottom: 2px;
     text-transform: uppercase;
     font-weight: bolder;
 
@@ -96,6 +95,10 @@
     display: inline-block;
     block-size: 60px;
     margin: 5px 0px;
+}
+
+.s-wrapper .s-main-content .s-links ul li{
+ 
 }
 
 .s-spiderman-01-01 {
